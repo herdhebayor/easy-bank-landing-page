@@ -16,13 +16,6 @@ function closeHamburger() {
 	iconOpen.style.display = 'block'
 	html.removeEventListener(CloseHamburgerOnBodyClick)
 }
-// document.addEventListener('click', (e) => {
-// 	const target = e.target
-// 	if (!hamburger.contains(target) && !iconOpen.contains(target)) {
-// 		closeHamburger()
-// 	} 
-// })
-
 iconOpen.addEventListener('click', OpenHamburger)
 
 iconClose.addEventListener('click', closeHamburger)
